@@ -37,6 +37,10 @@ strong {
     color: white;
 }
 
+div {
+    margin: -10px;
+}
+
 .top {
     display: flex;
     flex-direction: column;
@@ -50,7 +54,7 @@ strong {
     display: flex;
     align-self: stretch;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .header-logo {
@@ -96,6 +100,7 @@ strong {
     font-weight: 900;
     color: #1F2937;
     margin: 50px;
+    margin-top: 60px;
 }
 
 .info-content {
@@ -167,4 +172,16 @@ strong {
 
 .action-button {
     border: 1px solid white;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 16px;
 }
