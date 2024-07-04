@@ -9,18 +9,21 @@ a {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 56px;
+    font-weight: extra-bold;
+    color: #f9faf8;
     margin: 0;
 }
 
 p {
     margin: 0;
     filter: contrast(0.7);
+    color: #E5E7EB;
 }
 
 button {
     width: 100px;
-    background-color: #007AFF;
+    background-color: #3882f6;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -34,7 +37,7 @@ button {
     display: flex;
     flex-direction: column;
     color: white;
-    background-color: rgb(39, 40, 63);
+    background-color: #1F2937;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -49,6 +52,7 @@ button {
 .header-logo {
     font-size: 24px;
     font-weight: 600;
+    color: #f9faf8;
 }
 
 .links {
@@ -86,6 +90,7 @@ button {
 .info-header {
     font-size: 36px;
     font-weight: 900;
+    color: #1F2937;
     margin: 50px;
 }
 
@@ -118,12 +123,20 @@ button {
 .quote {
     display: flex;
     flex-direction: column;
+    padding: 100px;
     padding-left: 350px;
     padding-right: 350px;
-    background-color: rgb(233, 233, 233);
+    background-color: #E5E7EB;
 }
 
 .quote-text {
     font-size: 36px;
-    filter: contrast(0.5);
+    color: #1F2937;
+    filter: contrast(0.25);
+}
+
+.quote-author {
+    text-align: end;
+    color: #1F2937;
+    font-weight: 700;
 }
